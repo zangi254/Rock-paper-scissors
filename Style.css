@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color:rgb(248, 9, 168);
+    text-align: center;
+}
+
+h1 {
+    margin: 50px 0px;
+    color: rgb(132, 241, 8);
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px 0px rgb(236, 7, 7);
+}
+
+.choice {
+    cursor: progress;
+    background-color: rgb(228, 50, 5);
+    border: 2px solid rgb(13, 247, 5);
+    border-radius: 40%;
+    padding: 16px;
+    font-size: 30px;
+}
+
+.choice:nth-child(3) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#reset {
+    cursor: all-scroll;
+    background-color: rgb(241, 9, 125);
+    color: rgb(243, 220, 12);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration-style: double;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px auto;
+    height: 250px;
+}
+
+#player-score, #computer-score {
+    width: 150px;
+    border: 1px solid rgb(255, 187, 0);
+    border-radius: 5px;
+    padding: 0px 20px;
+    height: 50%;
+    margin: auto 0px;
+    background-color: rgb(241, 199, 12);
+}
+
+#current-win {
+    font-weight: 500;
+    text-align: center;
+}
+
+#player-score h3, p {
+    margin-bottom: 20px;
+}
+
+#computer-score h3, p {
+    margin-bottom: 20px;
+}
